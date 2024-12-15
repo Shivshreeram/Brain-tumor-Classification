@@ -14,9 +14,9 @@ Ensure you have the following installed in your environment:
 - scikit-learn
 - Jupyter Notebook (optional, for experimentation)
 
--Install dependencies using:
+- Install dependencies using:
 
-    !pip install tensorflow numpy matplotlib scikit-learn
+        !pip install tensorflow numpy matplotlib scikit-learn
 
 ---
 
