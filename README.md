@@ -23,33 +23,33 @@ Install dependencies using:
 # Project Overview
 
   ## Data Description
-  Data obtained from Kaggle.
-  Classes: Tumor and Non-Tumor.
-  Dataset Split:
-      Train:Validation:Test = 7:2:1
-      Tumor: 98 images (train: 68, val: 20, test: 10)
-      Non-Tumor: 154 images (train: 108, val: 30, test: 16)
+  - Data obtained from Kaggle.
+  - Classes: Tumor and Non-Tumor.
+  - Dataset Split:
+      - Train:Validation:Test = 7:2:1
+      - Tumor: 98 images (train: 68, val: 20, test: 10)
+      - Non-Tumor: 154 images (train: 108, val: 30, test: 16)
 
   ## Model Architecture
-  A simple CNN model with three convolutional layers, dropout, and dense layers.
-  The model includes max-pooling for dimensionality reduction.
-  The final activation layer uses sigmoid for binary classification.
+  - A simple CNN model with three convolutional layers, dropout, and dense layers.
+  - The model includes max-pooling for dimensionality reduction.
+  - The final activation layer uses sigmoid for binary classification.
 
   ## Compilation and Callbacks
-  Optimizer: Adam (learning rate = 0.0001)
-  Loss: Binary Crossentropy
-  Metrics: Accuracy
-  Callbacks: Learning Rate Scheduler, Early Stopping
+  - Optimizer: Adam (learning rate = 0.0001)
+  - Loss: Binary Crossentropy
+  - Metrics: Accuracy
+  - Callbacks: Learning Rate Scheduler, Early Stopping
 
   ## Evaluation
-  Confusion Matrices and Accuracy for Train and Validation data.
-  Train and Validation Loss/Accuracy visualized with graphs.
+  - Confusion Matrices and Accuracy for Train and Validation data.
+  - Train and Validation Loss/Accuracy visualized with graphs.
 
  ##  Testing
-  Model tested on unseen data.
-  Threshold of 0.5 used for classification:
-      Prediction < 0.5: Healthy
-      Prediction ≥ 0.5: Tumor
+  - Model tested on unseen data.
+  - Threshold of 0.5 used for classification:
+      - Prediction < 0.5: Healthy
+      - Prediction ≥ 0.5: Tumor
   Correctly classified images included.
 
   ---
@@ -57,35 +57,35 @@ Install dependencies using:
 # Highlights
 
   ## Visual Analysis:
-  Train vs. Validation graphs of accuracy and loss.
-  Confusion Matrices for both train and validation sets.
+  - Train vs. Validation graphs of accuracy and loss.
+  - Confusion Matrices for both train and validation sets.
   ## Testing Results:
-  Demonstration of model's performance on unseen data with accompanying visual examples.
+  - Demonstration of model's performance on unseen data with accompanying visual examples.
 
   ---
 
 # References
   
-  Fig. 2: FutureLearn
-  Fig. 3: PapersWithCode
-  Fig. 4: LinkedIn
-  Special thanks to ML Dawn YouTube Channel for resources and explanations.
+  - Fig. 2: FutureLearn
+  - Fig. 3: PapersWithCode
+  - Fig. 4: LinkedIn
+  - Special thanks to ML Dawn YouTube Channel for resources and explanations.
 
 ---
 
 # How to Run
 
-  Clone the repository:
+- Clone the repository:
 
-    git clone https://github.com/yourusername/brain-tumor-classification.git
+        git clone https://github.com/yourusername/brain-tumor-classification.git
 
-Navigate to the project folder:
+- Navigate to the project folder:
 
-    cd brain-tumor-classification
+      cd brain-tumor-classification
 
-Run the training script or Jupyter Notebook:
+- Run the training script or Jupyter Notebook:
 
-    jupyter notebook BrainTumorClassification.ipynb
+      jupyter notebook BrainTumorClassification.ipynb
 
 ---
 
