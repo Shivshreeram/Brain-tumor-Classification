@@ -1,6 +1,6 @@
 # Brain Tumor Classification using CNNs
 
-This repository contains the implementation of a Convolutional Neural Network (CNN) model for the classification of brain tumors using labeled MRI images. The project leverages TensorFlow and Keras to build, train, and evaluate the model, including data preprocessing, training with callbacks, and performance visualization.
+This repository contains the implementation of a Convolutional Neural Network (CNN) model aimed at classifying MRI images to detect brain tumors. The project focuses on preparing the data, developing and training the model, and evaluating its accuracy in distinguishing between tumor and non-tumor cases.
 
 ---
 
@@ -61,15 +61,6 @@ Install dependencies using:
   - Confusion Matrices for both train and validation sets.
   ## Testing Results:
   - Demonstration of model's performance on unseen data with accompanying visual examples.
-
-  ---
-
-# References
-  
-  - Fig. 2: FutureLearn
-  - Fig. 3: PapersWithCode
-  - Fig. 4: LinkedIn
-  - Special thanks to ML Dawn YouTube Channel for resources and explanations.
 
 ---
 
