@@ -64,22 +64,6 @@ Install dependencies using:
 
 ---
 
-# How to Run
-
-- Clone the repository:
-
-        git clone https://github.com/yourusername/brain-tumor-classification.git
-
-- Navigate to the project folder:
-
-      cd brain-tumor-classification
-
-- Run the training script or Jupyter Notebook:
-
-      jupyter notebook BrainTumorClassification.ipynb
-
----
-
 # Acknowledgments
 
   This project was made possible with data contributions from Kaggle and open-source resources. The implementation is a simple yet effective demonstration of CNNs for medical imaging classification tasks.
